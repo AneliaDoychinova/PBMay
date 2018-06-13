@@ -18,6 +18,7 @@ public class SmartLilly {
             if (i % 2 == 1){
                 toysCount++;
             }else {
+                totalMoney += moneyPresent - 1;
                 moneyPresent += 10;
             }
         }
